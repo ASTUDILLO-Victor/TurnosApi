@@ -1,11 +1,3 @@
-C:\Users\vastudillo\Desktop\.net\TurnosApi\obj\Debug\net10.0\TurnosApi.csproj.AssemblyReference.cache
-C:\Users\vastudillo\Desktop\.net\TurnosApi\obj\Debug\net10.0\rpswa.dswa.cache.json
-C:\Users\vastudillo\Desktop\.net\TurnosApi\obj\Debug\net10.0\TurnosApi.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\vastudillo\Desktop\.net\TurnosApi\obj\Debug\net10.0\TurnosApi.AssemblyInfoInputs.cache
-C:\Users\vastudillo\Desktop\.net\TurnosApi\obj\Debug\net10.0\TurnosApi.AssemblyInfo.cs
-C:\Users\vastudillo\Desktop\.net\TurnosApi\obj\Debug\net10.0\TurnosApi.csproj.CoreCompileInputs.cache
-C:\Users\vastudillo\Desktop\.net\TurnosApi\obj\Debug\net10.0\TurnosApi.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\vastudillo\Desktop\.net\TurnosApi\obj\Debug\net10.0\TurnosApi.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\vastudillo\Desktop\.net\TurnosApi\bin\Debug\net10.0\appsettings.Development.json
 C:\Users\vastudillo\Desktop\.net\TurnosApi\bin\Debug\net10.0\appsettings.json
 C:\Users\vastudillo\Desktop\.net\TurnosApi\bin\Debug\net10.0\TurnosApi.staticwebassets.endpoints.json
@@ -116,6 +108,14 @@ C:\Users\vastudillo\Desktop\.net\TurnosApi\bin\Debug\net10.0\ru\Microsoft.CodeAn
 C:\Users\vastudillo\Desktop\.net\TurnosApi\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
 C:\Users\vastudillo\Desktop\.net\TurnosApi\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
 C:\Users\vastudillo\Desktop\.net\TurnosApi\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\vastudillo\Desktop\.net\TurnosApi\obj\Debug\net10.0\TurnosApi.csproj.AssemblyReference.cache
+C:\Users\vastudillo\Desktop\.net\TurnosApi\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Users\vastudillo\Desktop\.net\TurnosApi\obj\Debug\net10.0\TurnosApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vastudillo\Desktop\.net\TurnosApi\obj\Debug\net10.0\TurnosApi.AssemblyInfoInputs.cache
+C:\Users\vastudillo\Desktop\.net\TurnosApi\obj\Debug\net10.0\TurnosApi.AssemblyInfo.cs
+C:\Users\vastudillo\Desktop\.net\TurnosApi\obj\Debug\net10.0\TurnosApi.csproj.CoreCompileInputs.cache
+C:\Users\vastudillo\Desktop\.net\TurnosApi\obj\Debug\net10.0\TurnosApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\vastudillo\Desktop\.net\TurnosApi\obj\Debug\net10.0\TurnosApi.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\vastudillo\Desktop\.net\TurnosApi\obj\Debug\net10.0\rjimswa.dswa.cache.json
 C:\Users\vastudillo\Desktop\.net\TurnosApi\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
 C:\Users\vastudillo\Desktop\.net\TurnosApi\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
