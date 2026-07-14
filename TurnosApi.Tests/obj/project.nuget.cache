@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "g9ECiPnNQ68=",
+  "dgSpecHash": "Ohr66mJKDKQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\vastudillo\\Desktop\\.net\\TurnosApi\\TurnosApi.Tests\\TurnosApi.Tests.csproj",
+  "projectFilePath": "C:\\Users\\vastudillo\\Documents\\Para Revisar y Respaldar\\.net\\TurnosApi\\TurnosApi.Tests\\TurnosApi.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vastudillo\\.nuget\\packages\\bcrypt.net-next\\4.2.0\\bcrypt.net-next.4.2.0.nupkg.sha512",
     "C:\\Users\\vastudillo\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",

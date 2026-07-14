@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AokFFVQBGD8=",
+  "dgSpecHash": "SvDI49m+pig=",
   "success": true,
-  "projectFilePath": "C:\\Users\\vastudillo\\Desktop\\.net\\TurnosApi\\TurnosApi.csproj",
+  "projectFilePath": "C:\\Users\\vastudillo\\Documents\\Para Revisar y Respaldar\\.net\\TurnosApi\\TurnosApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vastudillo\\.nuget\\packages\\bcrypt.net-next\\4.2.0\\bcrypt.net-next.4.2.0.nupkg.sha512",
     "C:\\Users\\vastudillo\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
