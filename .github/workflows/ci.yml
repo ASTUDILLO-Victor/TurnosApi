@@ -2,9 +2,9 @@ name: CI - Build y Tests
 
 on:
   push:
-    branches: [ master  ]
+    branches: [ master ]
   pull_request:
-    branches: [ master  ]
+    branches: [ master ]
 
 jobs:
   build-and-test:
@@ -26,7 +26,7 @@ jobs:
         run: dotnet build --no-restore
 
       - name: Ejecutar Unit Tests
-        run: dotnet test TurnosApi.Tests --no-build
+        run: dotnet test TurnosApi.Tests --no-build --logger "console;verbosity=detailed"
 
       - name: Ejecutar Integration Tests
-        run: dotnet test TurnosApi.IntegrationTests --no-build
+        run: dotnet test TurnosApi.IntegrationTests --no-build --logger "console;verbosity=detailed"
