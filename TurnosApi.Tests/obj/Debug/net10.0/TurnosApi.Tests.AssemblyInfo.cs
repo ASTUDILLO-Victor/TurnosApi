@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TurnosApi.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+612d8780882d5fbdd01088a6b7711ed73cefebd9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+465826141cc00a2f9205b513eae985a9367ab813")]
 [assembly: System.Reflection.AssemblyProductAttribute("TurnosApi.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TurnosApi.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

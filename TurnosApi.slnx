@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="TurnosApi.csproj" />
+  <Project Path="TurnosApi.IntegrationTests/TurnosApi.IntegrationTests.csproj" />
+  <Project Path="TurnosApi.Tests/TurnosApi.Tests.csproj" />
+</Solution>
