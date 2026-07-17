@@ -3,6 +3,7 @@
     <TargetFramework>net10.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+	<DefaultItemExcludes>$(DefaultItemExcludes);TurnosApi.IntegrationTests\**;TurnosApi.Tests\**</DefaultItemExcludes>
   </PropertyGroup>
   <ItemGroup>
     <Compile Remove="TurnosApi.Tests/**/*.cs" />
@@ -21,3 +22,4 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="10.2.1" />
   </ItemGroup>
 </Project>
+

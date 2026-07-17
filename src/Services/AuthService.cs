@@ -58,9 +58,9 @@ public class AuthService : IAuthService
         var creado = _usuarioRepository.Agregar(usuario);
 
         // Asignar rol Cliente desde BD
-        var rolCliente = _rolRepository.ObtenerPorNombre("Cliente");
+        var rolCliente = _rolRepository.ObtenerPorNombre("Paciente");
         if (rolCliente == null)
-            throw new Exception("Rol Cliente no encontrado en BD");
+            throw new Exception("Rol Paciente no encontrado en BD");
 
         _usuarioRolRepository.Agregar(new UsuarioRol
         {

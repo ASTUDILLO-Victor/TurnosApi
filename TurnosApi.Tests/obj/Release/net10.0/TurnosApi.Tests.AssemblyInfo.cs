@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TurnosApi.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4ac8331297f747986ccbf3881cc83776d47a366a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c303887d0eeddee04b0438ce5b9e5a3a682bb6b6")]
 [assembly: System.Reflection.AssemblyProductAttribute("TurnosApi.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TurnosApi.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
