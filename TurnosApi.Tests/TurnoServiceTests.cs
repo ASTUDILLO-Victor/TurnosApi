@@ -64,7 +64,7 @@ public class TurnoServiceTests
 
         // Aquí necesitas configurar el mock para que ObtenerPorId retorne null
         mockUsuarioRepo.Setup(r => r.ObtenerPorId(1)).Returns(new Usuario { Id = 1, Nombre = "Dr. García" });
-        mockUsuarioRepo.Setup(r => r.ObtenerPorId(999)).Returns((Usuario?)null);
+        mockUsuarioRepo.Setup(r => r.ObtenerPorId(999)).Returns((new Usuario { Id = 1, Nombre = "Dr. García" }));
 
         var service = new TurnoService(mockTurnoRepo.Object, mockUsuarioRepo.Object);
 
@@ -90,7 +90,7 @@ public class TurnoServiceTests
         // Aquí necesitas configurar el mock para que ObtenerPorId retorne null
         mockUsuarioRepo.Setup(r => r.ObtenerPorId(1)).Returns(new Usuario { Id = 1, Nombre = "Dr. García" });
         mockUsuarioRepo.Setup(r => r.ObtenerPorId(999)).Returns(new Usuario { Id = 1, Nombre = "victor" });
-        mockTurnoRepo.Setup(r => r.ExisteTurnoEnFecha(It.IsAny<int>(), It.IsAny<DateTime>())).Returns(false);
+        mockTurnoRepo.Setup(r => r.ExisteTurnoEnFecha(It.IsAny<int>(), It.IsAny<DateTime>())).Returns(true);
 
         var service = new TurnoService(mockTurnoRepo.Object, mockUsuarioRepo.Object);
 
