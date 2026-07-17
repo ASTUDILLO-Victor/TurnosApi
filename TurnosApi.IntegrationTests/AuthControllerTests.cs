@@ -32,7 +32,7 @@ public class AuthControllerTests : IClassFixture<CustomWebApplicationFactory> //
             telefono = "0991234567",
             password = "Test123456!",
             confirmarPassword = "Test123456!"
-        ;
+        };
 
         // Act
         var response = await _client.PostAsJsonAsync("/api/auth/registro", registroDto);
