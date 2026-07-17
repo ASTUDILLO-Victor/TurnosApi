@@ -139,8 +139,7 @@ public class TurnoServiceTests
 
         // Assert
         Assert.NotNull(resultado);
-        //Assert.Equal("Consulta", resultado.Motivo);
-        Assert.Equal("Esto va a fallar", resultado.Motivo);
+        Assert.Equal("Consulta", resultado.Motivo);
     }
     [Fact]
     public void CambiarEstado_TurnoExisteYEstadoValido_ActualizaCorrectamente()
