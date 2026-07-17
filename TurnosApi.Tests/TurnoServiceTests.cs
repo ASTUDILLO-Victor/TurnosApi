@@ -64,7 +64,7 @@ public class TurnoServiceTests
 
         // Aquí necesitas configurar el mock para que ObtenerPorId retorne null
         mockUsuarioRepo.Setup(r => r.ObtenerPorId(1)).Returns(new Usuario { Id = 1, Nombre = "Dr. García" });
-        mockUsuarioRepo.Setup(r => r.ObtenerPorId(999)).Returns((new Usuario { Id = 1, Nombre = "Dr. García" }));
+        mockUsuarioRepo.Setup(r => r.ObtenerPorId(999)).Returns((Usuario?)null);
 
         var service = new TurnoService(mockTurnoRepo.Object, mockUsuarioRepo.Object);
 
@@ -139,7 +139,8 @@ public class TurnoServiceTests
 
         // Assert
         Assert.NotNull(resultado);
-        Assert.Equal("Consulta", resultado.Motivo);
+        //Assert.Equal("Consulta", resultado.Motivo);
+        Assert.Equal("Esto va a fallar", resultado.Motivo);
     }
     [Fact]
     public void CambiarEstado_TurnoExisteYEstadoValido_ActualizaCorrectamente()
